@@ -42,7 +42,7 @@ Feature: Shopping Catalog Page
     When User order "0" product "Sauce Labs Backpack" with Color "Green"
     Then User unable to add product into cart
 
-    #This is how background can be used to eliminate duplicate steps
+    #This case expected to be failed because there is missing label in Zip Code error message
   @NegativeCase
   Scenario: User Submit Shipping Address With Empty Mandatory Fields
     And User order "1" product "Sauce Labs Backpack" with Color "Blue"
