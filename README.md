@@ -31,7 +31,7 @@ CPU/ABI : x86
 DesiredCapabilities can be configured in *src/test/java/utils/DriverFactory.java*
 
 ## Folder Structure
-<img width="1792" alt="Screenshot 2025-04-23 at 19 22 23" src="https://github.com/user-attachments/assets/c6772013-de2e-4bfd-82ae-233cc3dd462a" />
+<img width="329" alt="Screenshot 2025-04-24 at 13 34 29" src="https://github.com/user-attachments/assets/63aae863-bed7-4f8a-b828-6602559ec74e" />
 
 ## Implemented Test Cases
 ### Login.feature
