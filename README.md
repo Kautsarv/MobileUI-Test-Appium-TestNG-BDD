@@ -2,12 +2,12 @@
 Automation Mobile Android Testing using Appium, TestNG, and Cucumber BDD
 
 ## Test Application
-Source APK : https://github.com/saucelabs/my-demo-app-android/releases/tag/2.2.0<br>
+Source APK : https://github.com/saucelabs/my-demo-app-android/releases/tag/2.2.0 <br>
 APK already stored inside this repository in *src/test/resources/apk/mda-2.2.0-25.apk*
 
 ## Tech Stack
 1. IntelliJ - IDE
-2. Java  - Programming language
+2. Java 1.8  - Programming language
 3. Maven - Build automation tool
 4. Appium - Mobile Automation library
 5. TestNG - Test Management library
