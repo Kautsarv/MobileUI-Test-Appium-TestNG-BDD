@@ -6,8 +6,6 @@
 		preserve-order="true">
 		<classes>
 			<class name="runner.TestRunner"/>
-			<class name="page.ProductsPageObject"/>
-			<class name="page.LoginPageObject"/>
 		</classes>
 	</test>
 </suite>
