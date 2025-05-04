@@ -1,0 +1,1572 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10007419259,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open login page",
+            "match": {
+              "location": "LoginStepDef.userOpenLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "User Successfully Login and Logout With Valid Credential",
+        "description": "",
+        "id": "user-login-page;user-successfully-login-and-logout-with-valid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3542845141,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User login with username \"bod@example.com\" and password \"10203040\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bod@example.com",
+                  "offset": 26
+                },
+                {
+                  "val": "10203040",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepDef.userSubmitValidAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7059583910,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User successfully login",
+            "match": {
+              "location": "LoginStepDef.userSuccessfullyLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1881987729,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User logout account",
+            "match": {
+              "location": "LoginStepDef.userLogoutAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 877180760,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User successfully logout",
+            "match": {
+              "location": "LoginStepDef.userSuccessfullyLogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6516055032,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open login page",
+            "match": {
+              "location": "LoginStepDef.userOpenLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "User Successfully Login and Logout With Valid Credential",
+        "description": "",
+        "id": "user-login-page;user-successfully-login-and-logout-with-valid-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4069338431,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User login with username \"visual@example.com\" and password \"10203040\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "visual@example.com",
+                  "offset": 26
+                },
+                {
+                  "val": "10203040",
+                  "offset": 60
+                }
+              ],
+              "location": "LoginStepDef.userSubmitValidAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7049002861,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User successfully login",
+            "match": {
+              "location": "LoginStepDef.userSuccessfullyLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1889542905,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User logout account",
+            "match": {
+              "location": "LoginStepDef.userLogoutAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 772292211,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User successfully logout",
+            "match": {
+              "location": "LoginStepDef.userSuccessfullyLogout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7932588820,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open login page",
+            "match": {
+              "location": "LoginStepDef.userOpenLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "User Not Allowed To Login Using Locked Account",
+        "description": "",
+        "id": "user-login-page;user-not-allowed-to-login-using-locked-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4277198940,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User login with username \"alice@example.com\" and password \"10203040\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alice@example.com",
+                  "offset": 26
+                },
+                {
+                  "val": "10203040",
+                  "offset": 59
+                }
+              ],
+              "location": "LoginStepDef.userSubmitValidAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18878042,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User failed to login",
+            "match": {
+              "location": "LoginStepDef.userFailedToLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 244747138,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User shown error \"Account Locked\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account Locked",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDef.userShownError(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7292458587,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open login page",
+            "match": {
+              "location": "LoginStepDef.userOpenLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User Submit Login With Empty Field",
+        "description": "",
+        "id": "user-login-page;user-submit-login-with-empty-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4289773068,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User login with username \"NULL\" and password \"10203040\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NULL",
+                  "offset": 26
+                },
+                {
+                  "val": "10203040",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginStepDef.userSubmitValidAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212194394,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User shown error \"Username is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username is required",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDef.userShownError(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4404329689,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User login with username \"alice@example.com\" and password \"NULL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alice@example.com",
+                  "offset": 26
+                },
+                {
+                  "val": "NULL",
+                  "offset": 59
+                }
+              ],
+              "location": "LoginStepDef.userSubmitValidAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194108850,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User shown error \"Enter Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Enter Password",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDef.userShownError(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4303629794,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User login with username \"NULL\" and password \"NULL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NULL",
+                  "offset": 26
+                },
+                {
+                  "val": "NULL",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginStepDef.userSubmitValidAnd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241372608,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User shown error \"Username is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username is required",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStepDef.userShownError(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@NegativeCase"
+          }
+        ]
+      }
+    ],
+    "name": "User Login Page",
+    "description": "",
+    "id": "user-login-page",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2450600530,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open catalog page",
+            "match": {
+              "location": "ProductsStepDef.userOpenCatalogPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User Successfully Checkout Product",
+        "description": "",
+        "id": "shopping-catalog-page;user-successfully-checkout-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4879706002,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User order \"2\" product \"Sauce Labs Backpack\" with Color \"Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 12
+                },
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 24
+                },
+                {
+                  "val": "Blue",
+                  "offset": 57
+                }
+              ],
+              "location": "ProductsStepDef.userOrderProductWithColor(int,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1267181525,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verify order in cart",
+            "match": {
+              "location": "ProductsStepDef.userVerifyOrderInCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4840260202,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User proceed to checkout",
+            "match": {
+              "location": "ProductsStepDef.userProceedToCheckout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21882285851,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User submit shipping address",
+            "match": {
+              "location": "ProductsStepDef.userSubmitShippingAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11416092520,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User submit payment method",
+            "match": {
+              "location": "ProductsStepDef.userSubmitPaymentMethod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6607943142,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User shown review order page",
+            "match": {
+              "location": "ProductsStepDef.userShownReviewOrderPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135989488,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User submit place order",
+            "match": {
+              "location": "ProductsStepDef.userSubmitPlaceOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4801349957,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User successfully checkout and order",
+            "match": {
+              "location": "ProductsStepDef.userSuccessfullyCheckoutAndOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2749304565,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open catalog page",
+            "match": {
+              "location": "ProductsStepDef.userOpenCatalogPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "User Successfully Remove Item From Cart",
+        "description": "",
+        "id": "shopping-catalog-page;user-successfully-remove-item-from-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6261166476,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User order \"4\" product \"Sauce Labs Backpack\" with Color \"Black\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 12
+                },
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 24
+                },
+                {
+                  "val": "Black",
+                  "offset": 57
+                }
+              ],
+              "location": "ProductsStepDef.userOrderProductWithColor(int,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132510733,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Open cart menu",
+            "match": {
+              "location": "ProductsStepDef.orderAddedToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1259833927,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User remove item from cart",
+            "match": {
+              "location": "ProductsStepDef.userRemoveItemFromCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4530857634,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Item successfully removed",
+            "match": {
+              "location": "ProductsStepDef.itemSuccessfullyRemoved()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2510330032,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open catalog page",
+            "match": {
+              "location": "ProductsStepDef.userOpenCatalogPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User Successfully Submit Review Product",
+        "description": "",
+        "id": "shopping-catalog-page;user-successfully-submit-review-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 110430472,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User submit review \"Sauce Labs Backpack (green)\" with \"5\" stars",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sauce Labs Backpack (green)",
+                  "offset": 20
+                },
+                {
+                  "val": "5",
+                  "offset": 55
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitReviewWithStars(String,int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 786199525,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User successfully submit product review",
+            "match": {
+              "location": "ProductsStepDef.userSuccessfullySubmitProductReview()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2746431089,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open catalog page",
+            "match": {
+              "location": "ProductsStepDef.userOpenCatalogPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "User Successfully Sort Product",
+        "description": "",
+        "id": "shopping-catalog-page;user-successfully-sort-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1415842791,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User sort product by \"Name - Descending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name - Descending",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductsStepDef.userSortProductBy(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 652197952,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Product successfully sorted by \"Name - Descending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name - Descending",
+                  "offset": 32
+                }
+              ],
+              "location": "ProductsStepDef.productSuccessfullySortedBy(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 730645327,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User sort product by \"Price - Ascending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price - Ascending",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductsStepDef.userSortProductBy(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1361445095,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Product successfully sorted by \"Price - Ascending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price - Ascending",
+                  "offset": 32
+                }
+              ],
+              "location": "ProductsStepDef.productSuccessfullySortedBy(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 719865179,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User sort product by \"Price - Descending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price - Descending",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductsStepDef.userSortProductBy(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1434764547,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Product successfully sorted by \"Price - Descending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price - Descending",
+                  "offset": 32
+                }
+              ],
+              "location": "ProductsStepDef.productSuccessfullySortedBy(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1490189499,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User sort product by \"Name - Ascending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name - Ascending",
+                  "offset": 22
+                }
+              ],
+              "location": "ProductsStepDef.userSortProductBy(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 606641300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Product successfully sorted by \"Name - Ascending\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name - Ascending",
+                  "offset": 32
+                }
+              ],
+              "location": "ProductsStepDef.productSuccessfullySortedBy(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@PositiveCase"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2269754275,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open catalog page",
+            "match": {
+              "location": "ProductsStepDef.userOpenCatalogPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "User Add Product To Cart With 0 Quantity",
+        "description": "",
+        "id": "shopping-catalog-page;user-add-product-to-cart-with-0-quantity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4263440563,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User order \"0\" product \"Sauce Labs Backpack\" with Color \"Green\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 12
+                },
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 24
+                },
+                {
+                  "val": "Green",
+                  "offset": 57
+                }
+              ],
+              "location": "ProductsStepDef.userOrderProductWithColor(int,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59297481,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User unable to add product into cart",
+            "match": {
+              "location": "ProductsStepDef.userUnableToAddProductIntoCart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2114319521,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open catalog page",
+            "match": {
+              "location": "ProductsStepDef.userOpenCatalogPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 45,
+            "value": "#This case expected to be failed because there is missing label in Zip Code error message"
+          }
+        ],
+        "line": 47,
+        "name": "User Submit Shipping Address With Empty Mandatory Fields",
+        "description": "",
+        "id": "shopping-catalog-page;user-submit-shipping-address-with-empty-mandatory-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3568093191,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User order \"1\" product \"Sauce Labs Backpack\" with Color \"Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 12
+                },
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 24
+                },
+                {
+                  "val": "Blue",
+                  "offset": 57
+                }
+              ],
+              "location": "ProductsStepDef.userOrderProductWithColor(int,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 686669193,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Open cart menu",
+            "match": {
+              "location": "ProductsStepDef.orderAddedToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5337469628,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User proceed to checkout",
+            "match": {
+              "location": "ProductsStepDef.userProceedToCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19738251274,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User submit shipping address with empty \"Full Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Full Name",
+                  "offset": 41
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitShippingAddressWithEmpty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6088749584,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User shown error \"Please provide your full name.\" in shipping address screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please provide your full name.",
+                  "offset": 18
+                }
+              ],
+              "location": "ProductsStepDef.userShownErrorInShippingAddressScreen(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19993207630,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User submit shipping address with empty \"Address Line 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Address Line 1",
+                  "offset": 41
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitShippingAddressWithEmpty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6195083281,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User shown error \"Please provide your address.\" in shipping address screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please provide your address.",
+                  "offset": 18
+                }
+              ],
+              "location": "ProductsStepDef.userShownErrorInShippingAddressScreen(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19608735581,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User submit shipping address with empty \"City\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "City",
+                  "offset": 41
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitShippingAddressWithEmpty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6686111824,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User shown error \"Please provide your city.\" in shipping address screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please provide your city.",
+                  "offset": 18
+                }
+              ],
+              "location": "ProductsStepDef.userShownErrorInShippingAddressScreen(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19810811402,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User submit shipping address with empty \"Zip Code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Zip Code",
+                  "offset": 41
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitShippingAddressWithEmpty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6589102792,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User shown error \"Please provide your zip\" in shipping address screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please provide your zip",
+                  "offset": 18
+                }
+              ],
+              "location": "ProductsStepDef.userShownErrorInShippingAddressScreen(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18761902959,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User submit shipping address with empty \"Country\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Country",
+                  "offset": 41
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitShippingAddressWithEmpty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 565893942,
+              "error_message": "java.lang.AssertionError: Error not match expected [Please provide you country.] but found [Please provide your]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:575)\n\tat page.ProductsPageObject.verifyShippingFormInputError(ProductsPageObject.java:329)\n\tat steps.ProductsStepDef.userShownErrorInShippingAddressScreen(ProductsStepDef.java:120)\n\tat ✽.Then User shown error \"Please provide you country.\" in shipping address screen(Products.feature:60)\n",
+              "status": "failed"
+            },
+            "line": 60,
+            "name": "User shown error \"Please provide you country.\" in shipping address screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please provide you country.",
+                  "offset": 18
+                }
+              ],
+              "location": "ProductsStepDef.userShownErrorInShippingAddressScreen(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 46,
+            "name": "@NegativeCase"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1485328616,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open catalog page",
+            "match": {
+              "location": "ProductsStepDef.userOpenCatalogPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 63,
+        "name": "User Submit Payment Method With Empty Mandatory Fields",
+        "description": "",
+        "id": "shopping-catalog-page;user-submit-payment-method-with-empty-mandatory-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4421376394,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User order \"1\" product \"Sauce Labs Backpack\" with Color \"Blue\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 12
+                },
+                {
+                  "val": "Sauce Labs Backpack",
+                  "offset": 24
+                },
+                {
+                  "val": "Blue",
+                  "offset": 57
+                }
+              ],
+              "location": "ProductsStepDef.userOrderProductWithColor(int,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548781380,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Open cart menu",
+            "match": {
+              "location": "ProductsStepDef.orderAddedToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6823344676,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User proceed to checkout",
+            "match": {
+              "location": "ProductsStepDef.userProceedToCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18585015148,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User submit shipping address",
+            "match": {
+              "location": "ProductsStepDef.userSubmitShippingAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11469108084,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User submit payment method with empty \"Full Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Full Name",
+                  "offset": 39
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitPaymentMethodWithEmpty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6101744829,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User shown error \"Value looks invalid.\" in \"Full Name\" field in payment method screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Value looks invalid.",
+                  "offset": 18
+                },
+                {
+                  "val": "Full Name",
+                  "offset": 44
+                }
+              ],
+              "location": "ProductsStepDef.userShownErrorInFieldInPaymentMethodScreen(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10184801654,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User submit payment method with empty \"Card Number\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Card Number",
+                  "offset": 39
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitPaymentMethodWithEmpty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6543706512,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User shown error \"blank\" in \"Card Number\" field in payment method screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "blank",
+                  "offset": 18
+                },
+                {
+                  "val": "Card Number",
+                  "offset": 29
+                }
+              ],
+              "location": "ProductsStepDef.userShownErrorInFieldInPaymentMethodScreen(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10663372057,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User submit payment method with empty \"Expiration Date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Expiration Date",
+                  "offset": 39
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitPaymentMethodWithEmpty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6084804501,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User shown error \"Value looks invalid.\" in \"Expiration Date\" field in payment method screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Value looks invalid.",
+                  "offset": 18
+                },
+                {
+                  "val": "Expiration Date",
+                  "offset": 44
+                }
+              ],
+              "location": "ProductsStepDef.userShownErrorInFieldInPaymentMethodScreen(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9818832085,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User submit payment method with empty \"Security Code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Security Code",
+                  "offset": 39
+                }
+              ],
+              "location": "ProductsStepDef.userSubmitPaymentMethodWithEmpty(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6569337718,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User shown error \"Value looks invalid.\" in \"Security Code\" field in payment method screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Value looks invalid.",
+                  "offset": 18
+                },
+                {
+                  "val": "Security Code",
+                  "offset": 44
+                }
+              ],
+              "location": "ProductsStepDef.userShownErrorInFieldInPaymentMethodScreen(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 62,
+            "name": "@NegativeCase"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Catalog Page",
+    "description": "",
+    "id": "shopping-catalog-page",
+    "keyword": "Feature",
+    "uri": "Products.feature"
+  }
+]
